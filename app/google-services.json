@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "837206259233",
+    "firebase_url": "https://trackhours-84a1f-default-rtdb.firebaseio.com",
+    "project_id": "trackhours-84a1f",
+    "storage_bucket": "trackhours-84a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837206259233:android:9e5d5a87b9fc2ab69d1560",
+        "android_client_info": {
+          "package_name": "com.example.trackhours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByXXwq4Snvdhw21IYpfOj3oB8WL6M7tUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

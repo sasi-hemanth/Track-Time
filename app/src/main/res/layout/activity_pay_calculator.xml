@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_pay_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Calculator"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_hours_worked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of hours"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_pay_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pay rate"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_tax_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tax %"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/textView_gross_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gross Pay: $"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textView_net_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Pay: $"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
